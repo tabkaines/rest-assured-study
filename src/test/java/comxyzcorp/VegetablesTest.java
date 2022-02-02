@@ -18,6 +18,6 @@ public class VegetablesTest {
                 .get("https://staging.tiered-planet.net/mild-temper/legumes")
                 .then()
                 .assertThat()
-                .body("[0].description", equalTo("Root vegetable, usually orange"));
+                .body("[1].name", equalTo("Zucchini"));
     }
 }
